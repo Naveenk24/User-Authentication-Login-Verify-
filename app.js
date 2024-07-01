@@ -13,6 +13,8 @@ const bcrypt = require("bcrypt");
 
 let db = null;
 
+// Initialize the Database and Server
+
 const initializeTheDbAndServer = async () => {
   try {
     db = await open({
